@@ -77,8 +77,8 @@ const Home = () => {
             </div>
 
             <About />
-            <Skills />
             <Education />
+            <Skills />
         </div>
     );
 };
