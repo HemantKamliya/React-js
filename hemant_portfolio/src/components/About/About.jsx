@@ -31,7 +31,7 @@ const About = () => {
             >
                 <motion.h2 
                     variants={itemVariants}
-                    className="text-center text-[#fbd9ad] text-3xl md:text-5xl font-bold mb-12"
+                    className="text-center text-[#823ae0] text-3xl md:text-5xl font-bold mb-12"
                 >
                     About Me
                 </motion.h2>

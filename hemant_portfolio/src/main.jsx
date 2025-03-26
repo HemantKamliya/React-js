@@ -13,7 +13,7 @@ const router = createBrowserRouter(
       <Route path='' element={<Home />} />
       <Route path='/about' element={<About />} />
       <Route path='/SkillsGrid' element={<SkillsGrid/>}></Route>
-
+     
     </Route>
   )
 );
