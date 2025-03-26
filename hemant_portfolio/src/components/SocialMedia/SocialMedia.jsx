@@ -4,11 +4,11 @@ import { FaGoogle } from "react-icons/fa";  // Gmail icon
 
 const SocialMedia = () => {
     const socialLinks = [
-        { href: "https://www.instagram.com/_md_mafujul_hasan_/", icon: <AiOutlineInstagram /> },
-        { href: "https://www.facebook.com/mh.tonmoy.13", icon: <AiFillFacebook /> },
-        { href: "https://github.com/MD-MAFUJUL-HASAN", icon: <AiFillGithub /> },
-        { href: "https://www.linkedin.com/in/md-mafujul-hasan/", icon: <AiFillLinkedin /> },
-        { href: "mailto:example@gmail.com", icon: <FaGoogle /> },  // Gmail icon with mailto link
+        { href: "https://www.instagram.com/hemant_kamliya/", icon: <AiOutlineInstagram /> },
+        { href: "https://www.facebook.com/hemant.kamliya.716", icon: <AiFillFacebook /> },
+        { href: "https://github.com/HemantKamliya", icon: <AiFillGithub /> },
+        { href: "https://www.linkedin.com/in/hemant-kamliya-1ab088222/", icon: <AiFillLinkedin /> },
+        { href: "hemantkamliya87@gmail.com", icon: <FaGoogle /> },  // Gmail icon with mailto link
     ];
 
     return (
