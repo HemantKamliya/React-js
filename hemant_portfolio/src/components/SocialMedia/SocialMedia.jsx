@@ -1,6 +1,6 @@
 import React from "react";
 import { AiOutlineInstagram, AiFillFacebook, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import { FaGoogle } from "react-icons/fa";  // Gmail icon
+import { FaGoogle } from "react-icons/fa";  
 
 const SocialMedia = () => {
     const socialLinks = [
@@ -12,7 +12,7 @@ const SocialMedia = () => {
     ];
 
     return (
-        <div className="flex justify-center flex-wrap gap-6 mt-6 py-6">
+        <div className="flex justify-center flex-wrap gap-4 sm:gap-6 mt-6 py-6">
             {socialLinks.map((link, index) => (
                 <a
                     key={index}
