@@ -65,7 +65,7 @@ function Skills() {
                     </Marquee>
                 </div>
             </div>
-            <div className='flex w-full  justify-end mt-6 pr-20 '>
+            <div className='flex w-full  justify-end mt-6 pr-2 '>
                 <Link
                     to="/SkillsGrid"
                     className="inline-flex items-center justify-center bg-purple-600 text-white  px-4 py-2  rounded-full  font-semibold hover:bg-purple-700         transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg group"

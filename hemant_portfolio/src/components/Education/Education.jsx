@@ -18,7 +18,7 @@ const Education = () => {
             </motion.h1>
 
             <div className="w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-8">
-                {/* Education Cards - takes full width on mobile, 2/3 on desktop */}
+                {/* Education Cards - takes full width on mobile, 1/2 on desktop */}
                 <div className="w-full px-[5%] lg:w-1/2 space-y-6">
                     {educationData.map((edu) => (
                         <EducationCard   

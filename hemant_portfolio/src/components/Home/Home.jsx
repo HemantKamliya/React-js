@@ -18,7 +18,7 @@ const Home = () => {
     }, []);
 
     return (
-        <div className='w-full mt-15 bg-gradient-to-r from-gray-900 via-gray-800 to-black '>
+        <div className='w-full mt-15 bg-gradient-to-r from-gray-900 via-gray-800 to-black overflow-scroll '>
             {/* Original Container */}
             <div className='flex px-10 flex-col md:flex-row w-full md:w-[80%] justify-center md:mx-auto pt-20 border-b-4 pb-48'>
                 {/* Left Text Column */}
