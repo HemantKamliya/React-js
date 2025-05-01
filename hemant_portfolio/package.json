@@ -15,6 +15,7 @@
     "@mui/material": "^7.0.0",
     "@mui/system": "^6.4.8",
     "@tailwindcss/vite": "^4.0.10",
+    "aos": "^2.3.4",
     "clsx": "^2.1.1",
     "framer-motion": "^12.4.10",
     "lucide-react": "^0.477.0",

@@ -5,6 +5,7 @@ import About from '../About/About';
 import Skills from '../Skills/Skills';
 import Education from '../Education/Education';
 import { motion, AnimatePresence } from 'framer-motion';
+import ProjectsSection from '../Projects/ProjectsSection ';
 
 const Home = () => {
     const [professionIndex, setProfessionIndex] = useState(0);
@@ -79,6 +80,7 @@ const Home = () => {
             <About />
             <Education />
             <Skills />
+            <ProjectsSection/>
         </div>
     );
 };
