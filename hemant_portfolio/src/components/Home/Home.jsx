@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import SocialMedia from '../SocialMedia/SocialMedia';
-import hemantpfp from '../../assets/hemantpfp.jpg';
+import hemantpfp1 from '../../assets/hemantpfp1.jpg'
+import hemantpfp2 from '../../assets/hemantpfp2.jpg'
+import hemantpfp3 from '../../assets/hemantpfp3.jpg'
 import About from '../About/About';
 import Skills from '../Skills/Skills';
 import Education from '../Education/Education';
@@ -70,7 +72,7 @@ const Home = () => {
 
                 <div className='flex justify-center mt-6 md:mt-0 lg:ml-10 md:pt-4 md:pl-20'>
                     <img
-                        src={hemantpfp}
+                        src={hemantpfp2}
                         alt="Hemant Kamliya"
                         className='w-64 h-64 md:w-80 md:h-80 rounded-full shadow-lg hover:scale-105 transition duration-300'
                     />
